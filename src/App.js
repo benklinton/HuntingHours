@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Container, Form, Button } from 'react-bootstrap';
-import { render } from '@testing-library/react';
+
 
 class App extends React.Component {
 

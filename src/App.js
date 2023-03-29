@@ -15,8 +15,16 @@ class App extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state.hours)
+    this.clearText()
     this.runApp();
+  }
+
+  clearText () {
+    document.getElementById('start').innerHTML += ""
+    document.getElementById('road').innerHTML+= ""
+    document.getElementById('flight').innerHTML+= "";
+    document.getElementById('tv').innerHTML+= "";
+    document.getElementById('swim').innerHTML+= "";
   }
 
   runApp () {
